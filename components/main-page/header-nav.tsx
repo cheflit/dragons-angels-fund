@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import {NavigationMenuHome} from "@/components/main-page/navigation-menu-home";
 import {Button} from "@/components/ui/button";
-import {ibmPlexSerif, inter} from "@/app/fonts/fonts";
+import {ibmPlexSerif} from "@/app/fonts/fonts";
 
 export default function HeaderNav() {
     return (
