@@ -19,7 +19,7 @@ import {
     Map,
     MoreHorizontal,
     PieChart,
-    Plus,
+    // Plus,
     Settings2,
     Sparkles,
     SquareTerminal,
@@ -31,14 +31,14 @@ import {
     AvatarFallback,
     AvatarImage,
 } from "@/components/ui/avatar"
-import {
-    Breadcrumb,
-    BreadcrumbItem,
-    BreadcrumbLink,
-    BreadcrumbList,
-    BreadcrumbPage,
-    BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
+// import {
+//     Breadcrumb,
+//     BreadcrumbItem,
+//     BreadcrumbLink,
+//     BreadcrumbList,
+//     BreadcrumbPage,
+//     BreadcrumbSeparator,
+// } from "@/components/ui/breadcrumb"
 import {
     Collapsible,
     CollapsibleContent,
@@ -51,10 +51,10 @@ import {
     DropdownMenuItem,
     DropdownMenuLabel,
     DropdownMenuSeparator,
-    DropdownMenuShortcut,
+    // DropdownMenuShortcut,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Separator } from "@/components/ui/separator"
+// import { Separator } from "@/components/ui/separator"
 import {
     Sidebar,
     SidebarContent,
@@ -62,7 +62,7 @@ import {
     SidebarGroup,
     SidebarGroupLabel,
     SidebarHeader,
-    SidebarInset,
+    // SidebarInset,
     SidebarMenu,
     SidebarMenuAction,
     SidebarMenuButton,
@@ -205,7 +205,7 @@ const data = {
 }
 
 export default function SidebarDashboard() {
-    const [activeTeam, setActiveTeam] = React.useState(data.teams[0])
+    // const [activeTeam, setActiveTeam] = React.useState(data.teams[0])
 
     return (
         <SidebarProvider>

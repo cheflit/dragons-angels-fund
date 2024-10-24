@@ -8,7 +8,7 @@ export default function Page() {
       <div className="min-h-screen flex flex-col">
           <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
               <div className="container flex h-full items-center">
-                  <div className="mr-4 hidden md:flex">
+                  <div className="mr-4 md:flex">
                       <Link className="mr-6 flex items-center space-x-2 pl-4" href="/">
                           <Image src="/assets/dnaf-logo.png" alt="Logo" width={100} height={100} />
                           <span className="hidden font-bold sm:inline-block">
